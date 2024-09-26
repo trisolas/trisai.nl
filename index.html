@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TROOS Bouw | Recreatiewoningen | Verbouwingen</title>
+    <link rel="icon" type="image/x-icon" href="img/about page 1/TROOS1_small.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="recreational new built houses contractor off grid tiny home shed full renovation netherlands" name="keywords">
+    <meta content="Transforming Homes in the Netherlands | Custom Recreational House Construction & Full Renovations of Houses/Appartments | Let us build your Dream Home!" name="description">
+
+    <!-- Favicon -->
+    <!-- <link href="img/favicon.ico" rel="icon"> -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=cand:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css">    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+    <!-- Custom styles (added by me) -->
+    <style>
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+        /* welcome bar styles */
+        .welcomeContainer {
+			background-color: rgb(56, 56, 56);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+		}
+
+		.left {
+			font-weight: bold;
+		}
+
+		.center {
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.right {
+			text-align: right;
+			font-weight: bold;
+		}
+
+        /* slideshow styles */
+        .slideDiv{
+            width: device-width;/* set width of slideshow to device's width */
+        }
+
+        .slideContainer{
+            width:90%; /* 90% of parent(slideDiv) width = 90% of 'device-width' */
+            position:relative;
+            overflow: hidden;
+            z-index: 999;
+            margin:auto;
+            margin-top:1vh;
+        }
+        .slideWrapper{
+            width:1200%; /* 12*100% because the slideshow contains 12 images, each of 100% width of the .slideContainer class */
+            display: flex;
+            animation: slide 100s infinite;
+            /* height: auto; */
+        }
+
+        .slideImg{
+            /* max-width:100%; */
+            width: 100%; /*100% of parent which is 100% of slidecontainer = 90% of 'device width' */
+            height: 100%;
+            /* max-height:100vh;           */
+        }
+
+        .imgContainer {
+            width:91--vw;
+            text-align: center;
+            border: 10px solid red;
+            /* display:flex; */
+        }
+
+        @keyframes slide{
+  /* 1 */
+  0%{
+    transform: translateX(0);
+  }
+  6.666%{
+    transform: translateX(0);
+  }
+  /* 2 */
+  13.333%{
+    transform: translateX(-8.33%);
+  }
+  13.333%{
+    transform: translateX(-8.33%);
+  }
+  /* 3 */
+  20%{
+    transform: translateX(-16.66%);
+  }
+  20%{
+    transform: translateX(-16.66%);
+  }
+  /* 4 */
+  26.666%{
+    transform: translateX(-25%);
+  }
+  26.666%{
+    transform: translateX(-25%);
+  }
+  /* 5 */
+  33.333%{
+    transform: translateX(-33.33%);
+  }
+  33.333%{
+    transform: translateX(-33.33%);
+  }
+  /* 6 */
+  40%{
+    transform: translateX(-41.66%);
+  }
+  40%{
+    transform: translateX(-41.66%);
+  }
+  /* 7 */
+  46.666%{
+    transform: translateX(-50%);
+  }
+  46.666%{
+    transform: translateX(-50%);
+  }
+  /* 8 */
+  53.333%{
+    transform: translateX(-58.33%   );
+  }
+  53.333%{
+    transform: translateX(-58.33%);
+  }
+  /* 9 */
+  60%{
+    transform: translateX(-66.66%);
+  }
+  60%{
+    transform: translateX(-66.66%);
+  }
+  /* 10 */
+   66.666%{
+    transform: translateX(-75%);
+  }
+  66.666%{
+    transform: translateX(-75%);
+  }
+  /* 11 */
+  73.333%{
+    transform: translateX(-83.33%);
+  }
+  73.333%{
+    transform: translateX(-83.33%);
+  }
+  /* 12 */
+  80%{
+    transform: translateX(-91.66%);
+  }
+  80%{
+    transform: translateX(-91.66%);
+  }
+  100%{
+    transform: translateX(-91.66%);
+  }
+  100%{
+    transform: translateX(-91.66%);
+  }
+
+}
+        
+        #projects:target::before {
+            content: "";
+            display: block;
+            height: 200px;
+            margin: -120px 0 0;
+            /* fixed header height*/
+        }
+
+        #aboutLink:target::before {
+            content: "";
+            display: block;
+            height: 50px;
+            margin: -120px 0 0;
+            /* fixed header height*/
+        }
+
+        #optionsLink:target::before {
+            content: "";
+            display: block;
+            height: 175px;
+            margin: -120px 0 0;
+            /* fixed header height*/
+        }
+
+        #testimonialsLink:target::before {
+            content: "";
+            display: block;
+            height: 200px;
+            margin: -120px 0 0;
+            /* fixed header height*/
+        }
+
+        #contactLink:target::before {
+            content: "";
+            display: block;
+            height: 100px;
+            margin: -120px 0 0;
+            /* fixed header height*/
+        }
+
+        /* fixed bottom bar (white stripe) */
+        #bottom-bar {
+            position: fixed;
+            /* left: 0; */
+            /* right: 0; */
+            width:100%;
+            bottom: 0;
+            height: 1vh;
+            background-color: white;
+            z-index: 1000;
+        }
+
+        /* hover effects for thumbnails */
+        /* .gridImg:hover img:hover {
+            transform: scale(1.06);
+            transition: transform 2s ease-in-out, filter 1s ease-in-out;
+            filter: saturate(200%);
+            }
+
+            img{
+                transition: transform 2s ease-in-out, filter 1s ease-in-out;
+            }
+
+            .imageTextGrid.hovered img{
+                filter: saturate(25%);
+                transition: transform 2s ease-in-out, filter 1s ease-in-out;
+
+            }
+
+            h1 { font-family: PT Sans; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 900; line-height: 26.4px; } h2 { font-family: PT Sans; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 900; line-height: 26.4px; }h3 { font-family: PT Sans; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: PT Sans; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: PT Sans; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: PT Sans; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
+            .projectTitle{
+                text-align:left;
+                margin-left:5vw;
+            } */
+
+            /* responsive img grid styles */
+            .imageTextGrid * {
+            box-sizing: border-box;
+            }
+
+            .imageTextGrid {
+            /* text-align: center;  */
+            width: 100vw;
+            margin: 0;
+            margin-right: 0;
+            /* display: flex; */
+            }
+
+            .photos {
+            display: flex;
+            /* background-color: #000; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-content: stretch;
+            padding: 0;
+            max-width: 100vw;
+            }
+
+            .photos img {
+            display: block;
+            float: left;
+            flex: 0 0 auto;
+            padding: .35vw;
+            background-color: #fff;
+            }
+
+            .imageTextGrid a{
+            display: contents;
+                    
+            }
+
+            .topText{
+                padding-top:20px;
+                font-weight:600;
+                font-size:xx-large;
+                font-style: italic;
+            }
+            
+            /* whatsapp button */
+            .whatsapp-button {
+                position: fixed;
+                bottom: 100px;
+                right: 42.5px;
+                
+                /* background-color: rgba(0, 193, 71, 0.8); */
+                color: #fff;
+                text-decoration: none;
+                /* padding: 13px 15px; */
+                border-radius: 50%;
+                font-weight: bold;
+                opacity:0.6;
+                z-index: 1000; /* Adjust the z-index as needed */
+                animation: drop-down 2.5s ease;
+                transition: scale 0.5s ease-in-out, background-color 0.5s ease-in-out, bottom 0.5s ease-in-out;
+            }
+
+            .whatsapp-button:hover {
+                /* animation-play-state: reset; */
+                /* background-color: rgba(0, 193, 71, 1); */
+                scale:1.1;
+                opacity:.9;
+                /* bottom:110px; */
+                transition: scale 0.5s ease-in-out, background-color 0.5s ease-in-out, bottom 0.5s ease-in-out;
+                   
+            }
+
+            @keyframes drop-down {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+        scale:2;
+        background-color: rgba(0, 193, 71, 1);
+	}
+    
+    10% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+        scale:2;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+        scale:1;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+        scale:1.2;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0) ;
+        scale:1;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+        scale:1.2;
+        background-color: rgba(0, 193, 71, 1);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+        scale:1;
+        background-color: rgba(0, 193, 71, 1);
+
+    }
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+        scale:1.2;
+        background-color: rgba(0, 193, 71, 1);
+
+    }
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+        scale:1;
+        background-color: rgba(0, 193, 71, .8);
+
+    }
+}
+
+@keyframes drop-down-and-rotate {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px) rotate(-20deg);
+        scale:2;
+        background-color: rgba(0, 193, 71, 1);
+	}
+    
+    10% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px) rotate(-20deg);
+        scale:2;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0) rotate(20deg);
+        scale:1;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px) rotate(-20deg);
+        scale:1.2;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0) ;
+        scale:1;
+        background-color: rgba(0, 193, 71, 1);
+
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+        scale:1.2;
+        background-color: rgba(0, 193, 71, 1);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+        scale:1;
+        background-color: rgba(0, 193, 71, 1);
+
+    }
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+        scale:1.2;
+        background-color: rgba(0, 193, 71, 1);
+
+    }
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+        scale:1;
+        background-color: rgba(0, 193, 71, .8);
+
+    }
+}
+
+
+            @media screen and (min-width: 1801px) {
+            .photos img {
+                width: 25%;
+            }
+            .topText{
+                font-size:xx-large;
+            }
+            /* make thumbnail images resize based on screen width */
+            #tnChristiaan{
+                content: url("img/about\ page\ 1/proj_thumnails/4_christiaan_size4.webp");}
+            #tnIjsselmuiden{
+                content: url("img/about\ page\ 1/proj_thumnails/2_ijsselmuiden_2_size4.webp");}
+            #tnHanne{
+                content: url("img/about\ page\ 1/proj_thumnails/5_hanne_size4.webp");}
+            #tnIjsselmuiden2{
+                content: url("img/about\ page\ 1/proj_thumnails/3_ijsselmuiden_3_size4.webp");}
+            #tnMaarn{
+                content: url("img/about\ page\ 1/proj_thumnails/6_Maarn_size4.webp");}
+            #tnRijswijk{
+                content: url("img/about\ page\ 1/proj_thumnails/7_Rijswijk_size4.webp");}
+            #tnDakopbouw{
+                content: url("img/about\ page\ 1/proj_thumnails/2_1_dakopbouw_size4.webp");}
+            #tnMona{
+                content: url("img/about\ page\ 1/proj_thumnails/2_2_mona_size4.webp");}
+            #tnKalfjes{
+                content: url("img/about\ page\ 1/proj_thumnails/2_3_kalfjes_size4.webp");}
+            #tnEpe{
+                content: url("img/about\ page\ 1/proj_thumnails/2_4_epe_size4.webp");}
+            #tnBkgalilei{
+                content: url("img/about\ page\ 1/proj_thumnails/2_5_BKGalilei_size4.webp");}
+            #tnVloerverwarming{
+                content: url("img/about\ page\ 1/proj_thumnails/2_6_vloerverwarming_size4.webp");}
+            #tnStellamaris{
+                content: url("img/about\ page\ 1/proj_thumnails/2_7_stellaMaris_size4.webp");}
+            #tnRioolapeldoorn{
+                content: url("img/about\ page\ 1/proj_thumnails/2_8_rioolApeldoorn_size4.webp");}
+            #tnVlonder{
+                content: url("img/about\ page\ 1/proj_thumnails/2_9_vlonder_size4.webp");}
+            #tnRotterdam{
+                content: url("img/about\ page\ 1/proj_thumnails/2_10_rotterdam_size4.webp");}
+            #tnDakuitbouw{
+                content: url("img/about\ page\ 1/proj_thumnails/2_11_dakUitbouw_size4.webp");}
+            #tnHekmona{
+                content: url("img/about\ page\ 1/proj_thumnails/2_12_hekMona_size4.webp");}
+            }
+            
+
+            @media screen and (min-width: 1025px)and (max-width: 1800px) {
+            .photos img {
+                width: 33%;
+            }
+            .topText{
+                font-size:x-large;
+            }
+                        /* make thumbnail images resize based on screen width */
+            /* make thumbnail images resize based on screen width */
+            #tnChristiaan{
+                content: url("img/about\ page\ 1/proj_thumnails/4_christiaan_size3.webp");}
+            #tnIjsselmuiden{
+                content: url("img/about\ page\ 1/proj_thumnails/2_ijsselmuiden_2_size3.webp");}
+            #tnHanne{
+                content: url("img/about\ page\ 1/proj_thumnails/5_hanne_size3.webp");}
+            #tnIjsselmuiden2{
+                content: url("img/about\ page\ 1/proj_thumnails/3_ijsselmuiden_3_size3.webp");}
+            #tnMaarn{
+                content: url("img/about\ page\ 1/proj_thumnails/6_Maarn_size3.webp");}
+            #tnRijswijk{
+                content: url("img/about\ page\ 1/proj_thumnails/7_Rijswijk_size3.webp");}
+            #tnDakopbouw{
+                content: url("img/about\ page\ 1/proj_thumnails/2_1_dakopbouw_size3.webp");}
+            #tnMona{
+                content: url("img/about\ page\ 1/proj_thumnails/2_2_mona_size3.webp");}
+            #tnKalfjes{
+                content: url("img/about\ page\ 1/proj_thumnails/2_3_kalfjes_size3.webp");}
+            #tnEpe{
+                content: url("img/about\ page\ 1/proj_thumnails/2_4_epe_size3.webp");}
+            #tnBkgalilei{
+                content: url("img/about\ page\ 1/proj_thumnails/2_5_BKGalilei_size3.webp");}
+            #tnVloerverwarming{
+                content: url("img/about\ page\ 1/proj_thumnails/2_6_vloerverwarming_size3.webp");}
+            #tnStellamaris{
+                content: url("img/about\ page\ 1/proj_thumnails/2_7_stellaMaris_size3.webp");}
+            #tnRioolapeldoorn{
+                content: url("img/about\ page\ 1/proj_thumnails/2_8_rioolApeldoorn_size3.webp");}
+            #tnVlonder{
+                content: url("img/about\ page\ 1/proj_thumnails/2_9_vlonder_size3.webp");}
+            #tnRotterdam{
+                content: url("img/about\ page\ 1/proj_thumnails/2_10_rotterdam_size3.webp");}
+            #tnDakuitbouw{
+                content: url("img/about\ page\ 1/proj_thumnails/2_11_dakUitbouw_size3.webp");}
+            #tnHekmona{
+                content: url("img/about\ page\ 1/proj_thumnails/2_12_hekMona_size3.webp");}
+            }
+            
+
+            @media screen and (min-width: 501px) and (max-width: 1024px) {
+            .photos img {
+                width: 50%;
+            }
+            .topText{
+                font-size:large;
+            }
+            .whatsapp-button {
+                content: url("img/WhatsAppButtonSmall.jpg");
+                width:13vw;
+                bottom:110px;
+                right:7vw;
+                animation: drop-down-and-rotate 2.5s ease;
+            }
+            }
+
+            @media screen and (min-width: 50px) and (max-width: 500px) {
+            .photos img {
+                width: 100%;
+            }
+            .topText{
+                font-size:medium;
+            }
+            .whatsapp-button {
+                content: url("img/WhatsAppButtonSmall.jpg");
+                width:16vw;
+                bottom:110px;
+                right:7vw;
+                animation: drop-down-and-rotate 2.5s ease;
+            }
+            }
+
+            /* remove controls from video playback */
+            video::-webkit-media-controls-panel {
+                display: none !important;
+                opacity: 1 !important;}
+
+           /* styles for about section text effect (blur fade in)  */
+            @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+            @keyframes scale {
+            100% {
+                transform: scale(1);
+            }
+            }
+
+            span {
+            display: inline-block;
+            opacity: 0;
+            filter: blur(4px);
+            }
+
+            span:nth-child(1) {
+            animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(2) {
+            animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(3) {
+            animation: fade-in 0.8s 2.25s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(4) {
+            animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(5) {
+            animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(6) {
+            animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(7) {
+            animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(8) {
+            animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(9) {
+            animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(10) {
+            animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(11) {
+            animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(12) {
+            animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(13) {
+            animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(14) {
+            animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(15) {
+            animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(16) {
+            animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(17) {
+            animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            span:nth-child(18) {
+            animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+            }
+
+            @keyframes fade-in {
+            100% {
+                opacity: 1;
+                filter: blur(0);
+            }
+            }
+
+            /* social buttons*/
+            .btn-sm-square{
+                background-color: white;
+            }
+
+            .btn-sm-square:hover{
+                background-color: rgb(197, 197, 197);
+            }
+
+</style>
+
+</head>
+
+<body > 
+    <!-- fixed bottom bar (white stripe) -->
+    <div id="bottom-bar">
+        <!-- Content of the fixed bar goes here -->
+      </div>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>operating throughout the Netherlands</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 9:00 - 18:00</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-solid fa-envelope text-primary me-2"></small>
+                    <!-- <small>troosbouw@gmail.com</small> -->
+                </div>
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+31(6)</small>
+                </div> -->
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-outline-light btn-social" title="instagram icon" href="https://instagram.com/troosbouw?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" title="facebook icon" href="https://www.facebook.com/people/Troos-Bouw/pfbid02mzgVYbe8DtqCVUW8Gu2NAk5bhdB7QAfE8g1fA43yLXcMGoFjUs2U2zWom1eVh2DUl/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" title="pinterest icon" href="https://nl.pinterest.com/troosbouw/"><i class="fab fa-pinterest"></i></a>
+                    <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="#contactLink" style="margin-top:20px;" class="navbar-toggler me-4 navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img alt="troos bouw company logo" src="img/about page 1/TROOS1.png" height=80vh;> 
+            <h2 class="m-0 text-primary companyName">&ensp; TROOS <span>Bouw</span></h2>
+        </a>
+
+
+        <!-- <div id="topBarText">Recreational Homes &emsp; &#215; &emsp; Off-Grid &emsp; &#215; &emsp; Tiny Homes</div> -->
+
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="justify-self:center; margin:auto;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            
+            
+            <!-- flags for language selection (navbar) -->
+            <div class="navbar-nav ms-auto p-4 p-lg-0" style="align-items: right;  display:inline-block;">
+                <a href=""><img style="padding-left:5px; padding-right:10px;" alt="nederlands taal selectie" src="img/NLFlag.webp" height=20vh;> </a> 
+                <a href=""><img style="padding-left: 5px; padding-right:10px;" alt="english language selection" src="img/UKFlag.webp" height=20vh;> </a>
+
+
+            </div>
+
+            <div class="navbar-nav ms-auto p-4 p-lg-0" id="navBar">
+                <a href="#top" class="nav-item nav-link active">Home</a>
+                <a href="#projects" class="nav-item nav-link">Projects</a>
+                <a href="#testimonialsLink" class="nav-item nav-link">Testimonials</a>
+                <a href="blog.html" class="nav-item nav-link">Blog</a>
+                <a href="installatie.html" class="nav-item nav-link">InstallatieTechniek</a>
+
+                <a href="#contactLink" class="btn btn-primary animated slideInLeft" data-toggle="collapse" data-target="#navBar" style="justify-content: center; align-content:center; padding:auto;">Contact us<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- welcome bar start -->
+
+    <!-- welcome bar end -->
+
+  
+
+
+    
+ 
+<!-- <div class="topText">
+    Bouw en AannemersBedrijf. Volledige renovaties - Recreatiewoningen, off-grid & tiny-houses - Installatiewerk
+</div> -->
+
+<!-- About Start -->
+<div id="aboutLink"></div>
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0" id="about">
+   <div class="container about px-lg-0">
+       <div class="row g-0 mx-lg-0">
+           <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+               
+            <div class="position-relative h-100">
+                <!-- <video autoplay loop muted class="position-absolute img-fluid w-100 h-100">
+                    <source src="img/Maja39s Hideaway YouTube1080p60.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video> -->
+                   <img class="position-absolute img-fluid w-100 h-100" alt="ijsselmuiden lukas hut newbuilt recreational waterside house construction" src="img/about page 1/ijsselmuiden1_1.webp" style="object-fit: cover;" alt="">
+               </div>
+           </div>
+           <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s" >
+               <div class="p-lg-5 pe-lg-0" style="width:100%;">
+                   
+                    <div class="">
+                       <h1 class="" style="color:rgb(85, 1, 1);">
+                            <span>Design,</span>
+                            <span> Construction,</span>
+                            <span> Renovation</span>
+                        </h1>
+                    </div>
+
+                   <p style="font-size:x-large; white-space: normal;letter-spacing:normal;line-height:normal; text-justify: auto; width:100%;">
+                       At <b>Troos Bouw</b> we specialise in construction of high-quality, personalized <b>builds</b> of <b>Recreational, Off-Grid, and Tiny Homes.</b><br><br>
+                       Our experienced team pays close attention to detail and works closely with clients to ensure their specific needs and requirements are met.<br><br>
+                       We have expertise in building homes in remote and difficult terrains and prioritize using <b>top-quality materials for durability, longevity, sustainability and performance.</b> Troos Bouw is dedicated to providing a unique experience that exceeds expectations. <br><br>
+                       </h1>
+                       <strong>Contact us to learn more about our services and start building your dream home.</strong>
+                   
+                   </p>
+                   <!-- <div class="row g-4 mb-4 pb-2">
+                       <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                           <div class="d-flex align-items-center">
+                               <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                   <i class="fa fa-users fa-2x text-primary"></i>
+                               </div>
+                               <div class="ms-3">
+                                   <p class="fw-medium mb-0">Personalized approach</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                           <div class="d-flex align-items-center">
+                               <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                   <i class="fa fa-check fa-2x text-primary"></i>
+                               </div>
+                               <div class="ms-3">
+                                   <p class="fw-medium mb-0">Timely completion </p>
+                               </div>
+                           </div>
+                       </div>
+                   </div> -->
+                   <a href="#projects" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="color:black;font-size:1.5em; background-color:rgba(238, 238, 238, 0.705)">View Projects &nbsp; <i class='fas fa-arrow-down'></i></a>
+                   <br><br>
+                   <a href="#testimonialsLink" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="color:black;font-size:1.5em; background-color:rgba(238, 238, 238, 0.705)">What clients say about us &nbsp; <i class='fas fa-arrow-down'></i></a>
+
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<!-- About End -->
+
+  <div id="projects"></div>
+<h3 style="padding-left:10px; padding-top:15px;">NieuwBouw (New Construction)</h3>
+    <!-- IMAGE GRID START -->
+    <div class="imageTextGrid">
+        <div class="photos">
+          <a href="digiBrochure.html#R1_1" class="gridImg"><img class="thumbnailImg" id="tnApeldoorn" alt="apeldoorn custom forest house majas hideaway construction project" src="img/about page 1/proj_thumnails/1_apeldoorn.webp" /></a>
+          <a href="digiBrochure.html#R5_1" class="gridImg"><img class="thumbnailImg" id="tnChristiaan" alt="amsterdam custom garden shed with patio construction project" src="img/about page 1/proj_thumnails/4_christiaan.webp" /></a>
+          <a href="digiBrochure.html#R4_1" class="gridImg"><img class="thumbnailImg" id="tnIjsselmuiden" alt="ijsselmuiden lukas hut newbuilt recreational passive waterside house construction project" src="img/about page 1/proj_thumnails/2_ijsselmuiden_2.webp" /></a>
+          <a href="digiBrochure.html#R3_1" class="gridImg"><img class="thumbnailImg" id="tnHanne" alt="amsterdam custom guest garden house wood framing construction project" src="img/about page 1/proj_thumnails/5_hanne.webp" /></a>
+          <a href="digiBrochure.html#R2_1" class="gridImg"><img class="thumbnailImg" id="tnIjsselmuiden2" alt="ijsselmuiden lukas hut newbuilt recreational passive waterside house construction project" src="img/about page 1/proj_thumnails/3_ijsselmuiden_3.webp" /></a>
+          <a href="digiBrochure.html#R6_1" class="gridImg"><img class="thumbnailImg" id="tnMaarn" alt="maarn custom recreational house full renovation project" src="img/about page 1/proj_thumnails/6_Maarn.webp" /></a>
+          <a href="#1" class="gridImg"><img class="thumbnailImg" id="tnRijswijk" alt="den haag garden house shed new built project" src="img/about page 1/proj_thumnails/7_Rijswijk.webp" /></a>
+          
+        </div>
+    </div>
+
+    <h3 style="padding-top:10px;padding-left:10px;">Renovaties (Renovations)</h3>
+    <div class="imageTextGrid">
+        <div class="photos">
+        
+          <a href="digiBrochure.html#V1_1" class="gridImg"><img class="thumbnailImg" alt="amsterdam roof extra floor addition extension project" id="tnDakopbouw" src="img/about page 1/proj_thumnails/2_1_dakopbouw.webp" /></a>
+          <a href="digiBrochure.html#V2_1" class="gridImg"><img class="thumbnailImg" alt="amsterdam ground floor full appartment renovation project" id="tnMona" src="img/about page 1/proj_thumnails/2_2_mona.webp" /></a>
+          <a href="digiBrochure.html#V3_1" class="gridImg"><img class="thumbnailImg" alt="amsterdam kitchen and bathroom renovation project" id="tnKalfjes" src="img/about page 1/proj_thumnails/2_3_kalfjes.webp" /></a>
+          <a href="digiBrochure.html#V4_1" class="gridImg"><img class="thumbnailImg" alt="epe full recreational house renovation project" id="tnEpe" src="img/about page 1/proj_thumnails/2_4_epe.webp" /></a>
+          <a href="digiBrochure.html#V5_1" class="gridImg"><img class="thumbnailImg" alt="amsterdam full bathroom renovation project" id="tnBkgalilei" src="img/about page 1/proj_thumnails/2_5_BKGalilei.webp" /></a>
+          <a href="digiBrochure.html#V6_1" class="gridImg"><img class="thumbnailImg" alt="underfloor heating installation project" id="tnVloerverwarming" src="img/about page 1/proj_thumnails/2_6_vloerverwarming.webp" /></a>
+          <a href="digiBrochure.html#V7_1" class="gridImg"><img class="thumbnailImg" alt="nijmegen boat renovation painting project" id="tnStellamaris" src="img/about page 1/proj_thumnails/2_7_stellaMaris.webp" /></a>
+          <a href="digiBrochure.html#V8_1" class="gridImg"><img class="thumbnailImg" alt="apeldoorn new sewage system installation renovation project" id="tnRioolapeldoorn" src="img/about page 1/proj_thumnails/2_8_rioolApeldoorn.webp" /></a>
+          <a href="digiBrochure.html#V9_1" class="gridImg"><img class="thumbnailImg" alt="amsterdam new decking patio project" id="tnVlonder" src="img/about page 1/proj_thumnails/2_9_vlonder.webp" /></a>
+          <a href="digiBrochure.html#V10_1" class="gridImg"><img class="thumbnailImg" alt="rotterdam full house renovation project" id="tnRotterdam" src="img/about page 1/proj_thumnails/2_10_rotterdam.webp" /></a>
+          <a href="digiBrochure.html#V11_1" class="gridImg"><img class="thumbnailImg" alt="amstelveen roof extension project" id="tnDakuitbouw" src="img/about page 1/proj_thumnails/2_11_dakUitbouw.webp" /></a>
+          <a href="digiBrochure.html#V12_1" class="gridImg"><img class="thumbnailImg" alt="amsterdam new fence installation project" id="tnHekmona" src="img/about page 1/proj_thumnails/2_12_hekMona.webp" /></a>
+          <!-- <a href="#2" class="gridImg"><img class="thumbnailImg" src="img/about page 1/proj_thumnails/2_13_shivani.PNG" /></a>
+          <a href="#2" class="gridImg"><img class="thumbnailImg" src="img/about page 1/proj_thumnails/2_14_bkMerelbeke.PNG" /></a> -->
+
+        </div>
+      </div>
+
+  
+
+    <!-- Service End -->
+
+
+
+
+<!-- Testimonial Start -->
+<div id="testimonialsLink"></div>
+<div class="container-xxl py-5 wow fadeInUp" id="testimonials" data-wow-delay="0.1s">
+    <div class="container" style="font-size:smaller;">
+        <div class="section-title text-center">
+            <h1 class="display-5 mb-5">What Clients Say About Us</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="amsterdam custom garden shed with patio construction project" src="img/about page 1/proj_thumnails/4_christiaan.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Eindelijk een 2e living room. De plaatjes spreken voor zich, heel leuk om gezamenlijk tijdens een bouwproject, alles zo te krijgen hoe je het wilt dat het wordt.
+                        En ja, nadat het klaar is, kan ik volmondig zeggen, het is gelukt!                    </p>
+                    <h4 class="mb-1">Christiaan</h4>
+                    <span class="fst-italic"><h5>Tuinhuis Amsterdam</h5></span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+
+            <!-- <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/about page 1/Hanne/hanne1.jpeg" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        NOG INVULLLEN
+                    <h5 class="mb-1">Hanne</h5>
+                    <span class="fst-italic">Tiny House Amsterdam</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div> -->
+
+            <!-- <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/about page 1/Epe/epe.png" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        NOG INVULLLEN    
+                    </p>
+                    <h5 class="mb-1">Hans</h5>
+                    <span class="fst-italic">Recreatiewoning Epe</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div> -->
+
+            <!-- <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/about page 1/Ijs1/ijsselmuiden1_1_tn.png" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        NOG INVULLLEN    
+                    </p>
+                    <h5 class="mb-1">Karline</h5>
+                    <span class="fst-italic">Recreatiewoning Ijsselmuiden</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div> -->
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="amsterdam east recreational guest house new built project" src="img/about page 1/Robin/Wasmachinehok.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Er wordt hard gewerkt en heel fijn dat er inhoudelijk wordt meegedacht over het bouwproject. We zijn ontzettend blij en tevreden met het tuinhuisje!   
+                    </p>
+                    <h5 class="mb-1">Robin</h5>
+                    <span class="fst-italic">Tiny House Amsterdam</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="ijsselmuiden lukas hut newbuilt recreational passive waterside house construction project" src="img/about page 1/ijsselmuiden1_1.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Troos has worked with me on multiple projects over the last decade. They have a fantastic work ethic and are straight-forward in communication.    
+                    </p>
+                    <h5 class="mb-1">Lucinda</h5>
+                    <span class="fst-italic">Recreatiewoning Ijsselmuiden</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="den haag garden house shed new built project" src="img/about page 1/proj_thumnails/7_Rijswijk.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Ze gebruiken goede materialen en komen met prima oplossingen om de constructie praktischer en onderhoudsarm te maken. Precies wat we wensten. Dank! 
+                    </p>
+                    <h5 class="mb-1">Hans</h5>
+                    <span class="fst-italic">Tuinhuis</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="ijsselmuiden lukas hut newbuilt recreational passive waterside house construction project" src="img/about page 1/proj_thumnails/2_ijsselmuiden_2.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        De bouw van onze prachtige cabin heeft onder leiding van Troos tot een mooi resultaat geleidt. En binnen de afgesproken tijd. Troos dacht goed mee en kwam met creatieve oplossingen.    
+                    </p>
+                    <h5 class="mb-1">Mirjam</h5>
+                    <span class="fst-italic">Recreatiewoning Ijsselmuiden</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="apeldoorn custom forest house majas hideaway construction project" src="img/about page 1/proj_thumnails/1_apeldoorn.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Troos has worked with me on multiple projects over the last decade. They have a fantastic work ethic and are straight-forward in communication.    
+   
+                    </p>
+                    <h5 class="mb-1">Lucinda</h5>
+                    <span class="fst-italic">Recreatiewoning Apeldoorn</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="maarn custom recreational house full renovation project" src="img/about page 1/proj_thumnails/6_Maarn.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        We felt really lucky to have found Troos. Someone honest and trustworthy is so rare.
+                    </p>
+                    <h5 class="mb-1">Tijmen</h5>
+                    <span class="fst-italic">Recreatiewoning Maarn</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="amsterdam new decking patio project" src="img/about page 1/proj_thumnails/2_9_vlonder.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        I wanted to thank your for the great work that you did, the ladies said you were very respectful and tidy. I really appreciate that you were so well organised and made it all happen! Thank you! 
+                    </p>
+                    <h5 class="mb-1">Lizette</h5>
+                    <span class="fst-italic">Vlonder Amsterdam</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="amsterdam ground floor full appartment renovation project" src="img/about page 1/proj_thumnails/2_2_mona.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        
+                        Troos levert goed en vakkundig werk voor een goede prijs! Ik vond het erg fijn dat ze allround zijn, dus zowel electra, stucwerk, tegelzetten, schilderen, timmer- als loodgieterswerk kunnen verrichten.
+                    </p>
+                    <h5 class="mb-1">Mona</h5>
+                    <span class="fst-italic">Volledige Verbouwing</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="nijmegen boat renovation painting project" src="img/about page 1/proj_thumnails/2_7_stellaMaris.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Onze boot ziet er weer als nieuw uit na het schilderwerk! Erg tevreden met het geleverde werk.
+                    </p>
+                    <h5 class="mb-1">Jaap & Ronnie</h5>
+                    <span class="fst-italic">Stella Maris Schilderwerk</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/about page 1/proj_thumnails/2_14_bkMerelbeke.PNG" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        NOG INVULLEN                    </p>
+                    <h5 class="mb-1">Elisa & Zeger</h5>
+                    <span class="fst-italic">Badkamer Gent</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div> -->
+            
+<!--             
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/about page 1/proj_thumnails/2_13_shivani.PNG" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        NOG INVULLEN
+                    </p>
+                    <h5 class="mb-1">Shivani</h5>
+                    <span class="fst-italic">Badkamer Amsterdam</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div> -->
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="amsterdam new fence installation project" src="img/about page 1/proj_thumnails/2_12_hekMona.webp" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Harde werkers die de gemaakte afspraken goed nakomen. Vriendelijk, flexibel en er wordt goed meegedacht.
+                    </p>
+                    <h5 class="mb-1">Mona</h5>
+                    <span class="fst-italic">Hek + Boeiboord</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="testimonial-item text-center">
+                <img class="img-fluid bg-light p-2 mx-auto mb-3" alt="amsterdam custom bed closet build project" src="img/about page 1/proj_thumnails/bed.avif" style="width: 310px; height: 200px;">
+                <div class="testimonial-text text-center p-4">
+                    <p style="font-size:medium">
+                        Troos heeft van een inimini washok een prachtige kinderkamer ontworpen en gebouwd. Ze denken mee, zijn flexibel en leveren vakwerk in een snelle tijd.
+                    </p>
+                    <h5 class="mb-1">Maria</h5>
+                    <span class="fst-italic">Custom Bed + kast</span>
+                    <br><a class="fw-medium" href="testimonial">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+    <!-- Contact Start -->
+    <div id="contactLink"></div>
+<div style="background-color: lightgrey;">
+    <div class="section-title text-start">
+        <h1 class="display-5 mb-4" style="padding-top:10px;"> Want your own? </h1>
+    </div>
+    
+    <p class="mb-4 pb-2"><b>Contact us</b>, lets talk Possibilities</p>
+<div style="padding-left:10%">    
+    <form style="width:80%;" action="https://formsubmit.co/e2a3109e56f2b784903eb6ae24352c31" method="POST">
+        <div class="row g-3">
+            <input type="hidden" name="_subject" value="message from ContactForm">
+            
+            <div class="col-12 col-sm-6">
+                <!-- name input -->
+                <input type="text" name="name" required class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-6">
+                <!-- email input -->
+                <input type="email" name="email" required class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-6">
+                <!-- tel. no. input -->
+                <input type="text"  name="mobile" class="form-control border-0" placeholder="Your Mobile (optional)" style="height: 55px;">
+            </div>
+            <div class="col-12">
+                <!-- message input -->
+                <textarea class="form-control border-0" name="message" placeholder="Your message"></textarea>
+            </div>
+            <div class="col-12">
+                <!-- submit button -->
+                <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+            </div>
+                <input type="hidden" name="_next" value="https://troosbouw.com/thankyou.html">
+                <!-- fill in actual URL HERE -->
+        </div>
+    </form>
+</div>
+    <!-- Contact End -->
+
+    <!-- Feature Start -->
+    <!-- <div class="container-xxl py-5" id="feature">
+        <div class="row">
+            <div class="col-6">
+                <div class="d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                        <i class="fa fa-user-check fa-2x text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <h5 class="mb-0">Made to design</h5>
+                        <p class="mb-2">customized for you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                        <i class="fa fa-solid fa-seedling fa-2x text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <h5 class="mb-0">Quality Materials</h5>
+                        <p class="mb-2">& sustainable building</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                        <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <h5 class="mb-0">Efficient team</h5>
+                        <p class="mb-2">with broad experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                        <i class="fa fa-solid fa-toolbox fa-2x text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <h5 class="mb-0">Full project handling</h5>
+                        <p class="mb-2">from design to delivery</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    </div>  -->
+    <!-- Feature end -->
+
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="https://ih1.redbubble.net/image.545342841.2376/flat,1000x1000,075,f.u2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">schroink</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="https:img-9gag-fun.9cache.com/photo/aOYempN_460swp.webp" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">old man</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="https://clasebcn.com/wp-content/uploads/2020/04/harold-thumb.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">AAAAAAAAAAA</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="https://tr.rbxcdn.com/e9afb6b3bb707d214b0cc2ccbfad4f2e/420/420/Image/Png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">KYS N*gga  </h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Contact</h4>
+                    <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>operating throughout the Netherlands</p> -->
+                    <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+31(0)610715893 (Maarten)</p> -->
+                    <!-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>troosbouw@gmail.com</p> -->
+                    <a href="#contactLink" class="btn btn-primary py-4 px-lg-5 ">Contact us<i class="fa fa-arrow-right ms-3"></i></a>
+
+                    <div class="d-flex pt-2">
+                        Socials
+                        <a class="btn btn-outline-light btn-social" title="instagram icon" href="https://instagram.com/troosbouw?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" title="facebook icon" href="https://www.facebook.com/people/Troos-Bouw/pfbid02mzgVYbe8DtqCVUW8Gu2NAk5bhdB7QAfE8g1fA43yLXcMGoFjUs2U2zWom1eVh2DUl/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" title="pinterest icon" href="https://nl.pinterest.com/troosbouw/"><i class="fab fa-pinterest"></i></a>
+                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Custom</h4>
+                    <a class="btn btn-link" href="#projects">Tiny Homes</a>
+                    <a class="btn btn-link" href="#projects">Off-Grid</a>
+                    <a class="btn btn-link" href="#projects">Recreational Homes</a>
+                    <a class="btn btn-link" href="#projects">Garden Homes</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img style="width:30%;" alt="troos bouw company logo" src="img/about page 1/TROOS1_medium.png" > 
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Keep informed. 4 emails per year </p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; TroosBouw, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                         <a class="border-bottom" href="">Terms and conditions</a>
+                    </div>
+                    
+                    <div style="opacity: .5;" class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <br><br>Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- <a class="whatsapp-button" href="https://wa.me/31497229031?text=Goedendag,%20Ik%20heb%20eenvraag%20over%20jullie%20producten." target="_blank">
+        <i aria-hidden="true" class="fab fa-whatsapp fa-2x"></i>
+    </a> -->
+
+    <a class="whatsapp-button" aria-label="Chat on WhatsApp" href="https://wa.me/310610983085"> <img alt="Chat on WhatsApp" src="img/WhatsAppButtonGreenLarge.png" />
+    </a> 
+    
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+    <!-- js for slideshow -->
+    <script>
+
+            const links = document.querySelectorAll('.gridImg');
+            const parent = document.querySelector('.imageTextGrid');
+            
+            for(const link of links) {
+                const child = link.firstChild;
+
+                child.addEventListener('mouseover', function() {
+                    parent.classList.add('hovered');
+                });
+                child.addEventListener('mouseout', function() {
+                    parent.classList.remove('hovered');
+                })
+            }
+
+
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 6000); // Change image every 2 seconds
+        }
+
+        
+        </script>
+
+</body>
+
+</html>
